@@ -50,7 +50,7 @@ img{
     flex-direction: column;
     background-color: var(--White);
     padding: 2.25rem;
-    margin: 5%;
+    margin: 5% 5% 2rem 5%;
     border-radius: 1.5rem;
     border: 2px solid black;
     box-shadow: 0.9rem 0.9rem var(--Gray-950);
@@ -105,6 +105,18 @@ img{
     margin-top: 1rem;
     max-width: 100%;
     height: 60px;
+}
+.attribution { 
+    font-size: 17px; 
+    text-align: center;
+    border: 1px solid transparent;
+    background-color: rgba(10, 0, 0, 0.473); 
+    border-radius: 0.5rem;
+    color: var(--Yellow);
+}
+.attribution a { 
+    color: hsl(88, 100%, 64%); 
+    text-decoration: none;
 }
 
 @media (min-width:500px) {
